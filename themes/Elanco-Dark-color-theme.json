@@ -45,13 +45,6 @@
 			}
 		},
 		{
-			"name": "Variables",
-			"scope": ["variable", "string constant.other.placeholder"],
-			"settings": {
-				"foreground": "#eff6ff"
-			}
-		},
-		{
 			"name": "Colors",
 			"scope": ["constant.other.color"],
 			"settings": {
@@ -148,7 +141,7 @@
 			"scope": ["text.html.basic entity.other.attribute-name.html"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#ffb74d"
+				"foreground": "#5c4dff"
 			}
 		},
 		{
@@ -216,8 +209,65 @@
 			"settings": {
 				"foreground": "#64b5f6"
 			}
+		},
+				{
+		"name": "Function Variables",
+		"scope": [
+			"variable.other.readwrite",
+			"variable.other.readwrite.ts",
+			"variable.other.readwrite.js"
+		],
+		"settings": {
+			"foreground": "#81d4fa"
 		}
-	]
-	
-}
+		},
+		{
+		"name": "Function Parameters",
+		"scope": [
+			"variable.parameter",
+			"variable.parameter.function",
+			"meta.function.parameters"
+		],
+		"settings": {
+			"foreground": "#f78c6c"
+		}
+		},
+		{
+		"name": "Function Names",
+		"scope": [
+			"entity.name.function",
+			"meta.function-call"
+		],
+		"settings": {
+			"foreground": "#80cbc4"
+		}
+		},
+		{
+		"name": "Constants",
+		"scope": [
+			"variable.other.constant",
+			"variable.constant"
+		],
+		"settings": {
+			"foreground": "#c792ea"
+		}
+		},
+
+		{
+			"name": "Object Keys",
+			"scope": [
+				"meta.object-literal.key",
+				"meta.object.member.key",
+				"meta.object-literal.key.js",
+				"meta.object-literal.key.ts",
+				"meta.object-literal.key.string"
+			],
+			"settings": {
+				"foreground": "#ffb74d"  // Choose a color that fits your theme
+			}
+			}
+
+			]
+			
+		}
 
