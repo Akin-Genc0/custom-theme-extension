@@ -1,0 +1,21 @@
+{
+  "name": "elancodark",
+  "displayName": "elancoDark",
+  "description": "Dark theme for elanco",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Elanco-Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Elanco-Dark-color-theme.json"
+      }
+    ]
+  }
+}
